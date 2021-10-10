@@ -3,16 +3,22 @@
 \usepackage[utf8]{inputenc}
 \usepackage[bulgarian]{babel}
 
-
+\usepackage{systeme}
+\usepackage{amsmath}
 
 \usepackage{cmap}
 \usepackage[utf8]{inputenc}
 \usepackage[T2A]{fontenc}
 
+\newtheorem{definition}{Дефиниция}
+
+\usepackage{comment}
 %\use
 \newtheorem{problem}{Задача}
 
 \newcounter{solution}
+
+\usepackage{graphicx}
 
 \newcommand\solution{%
 	\stepcounter{solution}%
@@ -30,8 +36,20 @@
 	
 	
 	\section{Теория}
+	\includegraphics{Trig1}
 	
+	\vspace{-8cm}
 	
+	\begin{definition}$ sin(\alpha) = \frac{a}{c} $, $ cos(\alpha) = \frac{b}{c} $, $tg(\alpha) = \frac{a}{b} $, $cotg(\alpha) = \frac{b}{a} $	
+	\end{definition}
+Да зебележим, че $ sin(\beta) = cos(\alpha) = \frac{b}{c} $ и аналогично $cos(\beta) = sin(\alpha ) = \frac{a}{c} $.
+$a^2 + b^2 = c^2  \to (\frac{a}{c})^2 + (\frac{b}{c})^2 = 1 \to sin^2(\alpha) + cos^2(\alpha) = 1$. \\
+Тригонометрични тъждества: \\
+$sin^2(\alpha) + cos^2(\alpha) = 1$ \\
+$ sin(\alpha) = cos(\beta) = cos(90 - \alpha) $ \\
+$ tg(\alpha)cotg(\alpha) = 1 $
+
+	\section{Входно ниво 10ти клас}
 	
 	\section{Kвадратни уравнения и системи}
 	
@@ -112,6 +130,8 @@
 	
 		
 
+\section{Тригонометрия}
+
 
 \section{Задачи с текс}
 
@@ -153,14 +173,100 @@
 
 \solution
 
+\section{Системи}
+
+\begin{problem}
+	\[
+	\begin{cases}
+	x - y = 7 \\
+	x^2 - xy - y^2=19 \hspace{2cm} x = y + 7 
+	\end{cases}
+	\]
+\end{problem}
+
+\noindent
+\solution
+$ x = y + 7 $ \\
+$ (y+7)^2 - (y+7)y - y^2 = 19 $ \\
+$ y^2 + 14y + 49 - y^2 - 7y - y^2 = 19 $ \\
+$ -y^2 + 7y + 30 = 0 $ \\ 
+$ y^2 - 7y - 30 = 0  \to a = 1, b = -7 , c = -30$ \\ 
+$D = 49 + 120 = 169, y_1 = 10$ , $y_2 = -3 $ \\
+$x_1 = 10 + 7 = 17, x_2 = -3 + 7 = 4$ \\
+Отг. Решенията на системата са: $(17,10) , (4,-3)   $
+
+\vspace{1cm}
+
+\begin{problem}
+	\[
+	\begin{cases}
+	2x - y -1 = 0 \\
+	xy - 1 = 0  
+	\end{cases}
+	\]
+\end{problem}
+\solution
+$ y = 2x -1$ \\
+$ x(2x-1) - 1 = 0 $ \\
+$ 2x^2 - x - 1 = 0 \to a=2, b = -1, c= -1$  \\
+$ D = 1 - 4.2.(-1) = 9 $
+$ x_1 = \frac{-(-1)+ \sqrt{9}}{2.2}= \frac{4}{4} = 1 $, $x_2 = \frac{-(-1)- \sqrt{9}}{2.2}= -\frac{2}{4} = -\frac{1}{2}  $
+$ y_1 = 2x_1 - 1 = 2 - 1 = 1 $, $y_2 = 2x_2 - 1 = 2(-\frac{1}{2})-1 = -2  $ \\
+Отг. $(1,1), (-\frac{1}{2}, -2  ) $
+
+\begin{problem}
+	\[
+	\begin{cases}
+	x + y = -2 \\
+	x^2 + y^2 = 2 
+	\end{cases}
+	\]
+\end{problem}
+
+\begin{problem}
+	\[
+	\begin{cases}
+	x - 3y + 1 = 0 \\
+	x^2 - 4xy + 3y^2 + x - y = 0 
+	\end{cases}
+	\]
+\end{problem}
+
+
+\begin{comment}
+
+\begin{align*}
+x &= a^{\log_a (x)} \bigg\vert \ln () \\
+\Leftrightarrow \qquad \ln (x) &= \ln \left(a^{\log_a (x)} \right) \\
+\Leftrightarrow \qquad \ln (x) &= \log_a (x) \cdot \ln (a) \bigg\vert - \ln (a) \\
+\Leftrightarrow \qquad \frac{\ln (x)}{\ln (a)} &= \log_a (x) 
+\end{align*}
+
+\begin{align*}
+&\left\{
+\begin{aligned}
+I_{50}+I_{10}=I_{03}\\
+I_{21}=I_{12}+I_{10}\\
+I_{12}+I_{32}=I_{21}\\
+I_{03}=I_{32}+I_{34}\\
+I_{34}=I_{451}+I_{452}\\
+\end{aligned}\right.
+&
+\left\{\begin{aligned}
+U_{30}+U_{01}+U_{121}+U_{23}=0\\
+U_{34}+U_{452}+U_{50}+U_{30}=0\\
+U_{121}+U_{122}=0\\
+U_{451}+U_{452}=0\\
+\end{aligned}\right. \\
+&\text{, pentru legea I, și}
+&\text{pentru legea a II-a}
+\end{align*}
+
+\end{comment}
 
 
 
-
-
-
-
-
-	
 \end{document}	
 	
+	
+
