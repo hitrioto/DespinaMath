@@ -20,6 +20,9 @@
 
 \usepackage{graphicx}
 
+
+\usepackage{tikz}
+
 \newcommand\solution{%
 	\stepcounter{solution}%
 	\textbf{Решение :}\\%
@@ -33,11 +36,19 @@
 	
 	
 	\maketitle
-	
+	\tableofcontents
 	
 	\section{Теория}
 	
 	\subsection{Триъгълник}
+	
+	
+F=\tikz[scale=.625,baseline=0pt]{
+	\clip[preaction=draw] (-30:1) -- (90:1) -- (210:1) -- cycle;
+	\draw\foreach \i [count=\j] in {90,210,-30}{ 
+		(\i:1) circle [radius=.25] (\i:.875) node [anchor=\i,font=\tiny] {\j}};}
+	
+	
 	
 	\includegraphics{Trig1}
 	
@@ -53,20 +64,7 @@ $ sin(\alpha) = cos(\beta) = cos(90 - \alpha) $ \\
 $ tg(\alpha)cotg(\alpha) = 1 $ \\
 $ tg(\alpha) = \frac{a}{b} = \frac{a}{c} \cdot \frac{c}{b} = \frac{sin(\alpha)}{cos(\alpha)} $, $cotg(\alpha) = \frac{1}{tg(\alpha)} = \frac{cos(\alpha)}{sin(\alpha)} $ 
 
-\begin{problem}
-	Да се намерят останалите тригонометрични функции, ако $cos(\alpha) = 0.3 $
-\end{problem}
-\solution
-$sin^2(\alpha) + cos^2(\alpha) = 1 \to sin^2(\alpha) = 1 - 0,09 \to sin(\alpha) = \sqrt{0,91}  $  \\
-$tg(\alpha) = \frac{\sqrt{0,91}}{0,3} = \frac{10\sqrt{0,91}}{3} $ \\
- $cotg(\alpha) = \frac{0,3}{\sqrt{0.91}} = \frac{3}{10} \cdot \frac{\sqrt{0,91}}{0,91} = \frac{30\sqrt{0,91}}{91}  $
-\begin{problem}
-	Да се намерят останалите тригонометрични функции, ако $cos(\gamma) = \frac{\sqrt2}{2} $, $cos(\alpha) = \frac{1}{2} $.
-\end{problem}
-\solution $cos(\alpha) = \frac{1}{2} \to sin^2(\alpha) = 1 - \frac{1}{4} = \frac{3}{4} \to \sqrt{sin^2(\alpha)} = \sqrt{\frac{3}{4}} $ \\
-$ sin(\alpha) = \frac{\sqrt3}{\sqrt4} = \frac{\sqrt3}{2} $ \\
-$ tg(\alpha) = \frac{\frac{\sqrt3}{2}}{\frac{1}{2}} = \sqrt{3} $ \\
-$cotg(\alpha) = \frac{1}{\sqrt3} = \frac{\sqrt3}{\sqrt9} =  \frac{\sqrt3}{3}$
+
 \vspace{-6cm}
 
 \subsection{Трапец}
@@ -104,6 +102,11 @@ $cotg(\alpha) = \frac{1}{\sqrt3} = \frac{\sqrt3}{\sqrt9} =  \frac{\sqrt3}{3}$
 Примерите по горе Ф, Х и М могат да се наредят по $3.2.1 =6 $ начина и Ф,Х, М, Р могат да се наредят по $4.3.2.1 = 24$ начина. Дефинираме $n$-факториел с $n! = n(n-1)...1$.
 
 
+
+
+
+
+
 \begin{definition}
 Вариация - избор на елементи където реда има значение - Налучкване на телефонен номер. $V_{10}^4$.
 \end{definition}
@@ -129,8 +132,16 @@ $cotg(\alpha) = \frac{1}{\sqrt3} = \frac{\sqrt3}{\sqrt9} =  \frac{\sqrt3}{3}$
 
 
 
+\begin{problem}
+	Да се намерят всичките възможни комбинации RGB цветове с интервал [0,255].
+\end{problem}
 
-	\section{Неравенства}
+\subsection{Полиномиални и дробни неравенства - теория}
+$a_0 x^n + a_1 x^{n-1} + \dots  + a_n < 0$. \\
+$a_0(x-x_1)\dots (x-x_n) < 0$
+Нека, за определеност, имаме $x_1 < x_2 < \dots < x_n $. По подобен начин ако имаме дроби. (Да се редактира)
+
+	\section{Неравенства - задачи}
 	При умножаване на двете страни на неравенство с $-1$, сменяме знака на неравенството. Пример:
 	 3 < 5  $ \to -3>-5 $ \\
 	 
@@ -242,6 +253,26 @@ $cotg(\alpha) = \frac{1}{\sqrt3} = \frac{\sqrt3}{\sqrt9} =  \frac{\sqrt3}{3}$
 
 
 \section{Тригонометрия}
+
+\begin{problem}
+	Да се намерят останалите тригонометрични функции, ако $cos(\alpha) = 0.3 $
+\end{problem}
+\solution
+$sin^2(\alpha) + cos^2(\alpha) = 1 \to sin^2(\alpha) = 1 - 0,09 \to sin(\alpha) = \sqrt{0,91}  $  \\
+$tg(\alpha) = \frac{\sqrt{0,91}}{0,3} = \frac{10\sqrt{0,91}}{3} $ \\
+$cotg(\alpha) = \frac{0,3}{\sqrt{0.91}} = \frac{3}{10} \cdot \frac{\sqrt{0,91}}{0,91} = \frac{30\sqrt{0,91}}{91}  $
+\begin{problem}
+	Да се намерят останалите тригонометрични функции, ако $cos(\gamma) = \frac{\sqrt2}{2} $, $cos(\alpha) = \frac{1}{2} $.
+\end{problem}
+\solution $cos(\alpha) = \frac{1}{2} \to sin^2(\alpha) = 1 - \frac{1}{4} = \frac{3}{4} \to \sqrt{sin^2(\alpha)} = \sqrt{\frac{3}{4}} $ \\
+$ sin(\alpha) = \frac{\sqrt3}{\sqrt4} = \frac{\sqrt3}{2} $ \\
+$ tg(\alpha) = \frac{\frac{\sqrt3}{2}}{\frac{1}{2}} = \sqrt{3} $ \\
+$cotg(\alpha) = \frac{1}{\sqrt3} = \frac{\sqrt3}{\sqrt9} =  \frac{\sqrt3}{3}$
+
+
+
+
+
 
 
 \section{Задачи с текс}
@@ -410,6 +441,74 @@ $ 3x = 3 \to x = 1 $. \\
  Проверка:
 $\sqrt{1 - 2} -  \sqrt{2-1} = \sqrt{-1} - \sqrt{1} \neq 0 \to $ няма решение. \\
 За другия път $x - 2 \geq 0 $ и $ 2x-1 \geq 0 $
+
+
+\section{Опростяване на изрази}
+
+\begin{problem}
+	 Да се опрости изразът:
+	 \begin{enumerate}
+	 	\item $\sqrt{0.36*49*25} = \sqrt{0.6^2*7^2*5^2} = \sqrt{0.6^2}*\sqrt{7^2}*\sqrt{5^2} = 0.6*7*5 = 35*0.6 = 21$
+	 	\item $\frac{\sqrt{22.5}}{\sqrt{0.4}} = \frac{\sqrt {225} \sqrt {0.1}}{\sqrt4 \sqrt{0.1}} = \frac{15}{2} $
+	 	\item $\sqrt{60} - (\sqrt3 + \sqrt{5})^2 = \sqrt{60} - ((\sqrt{3})^2 + 2\sqrt{3}\sqrt{5}+ (\sqrt{5})^2 ) = \\ \sqrt{60} - (3+2\sqrt{15}+5)   =\sqrt{60} - 3 - 2\sqrt{15} -5  = \sqrt{60} -8 - 2\sqrt{15}   $. \\ Разлагане на $60$ на прости множители: $60 = 2*2*3*5$. Тогава $\sqrt{60} = \sqrt{2*2*3*5} = \sqrt{2^2*3*5} = 2 \sqrt{15} $.
+	 	Отг. $-8$
+
+	 \end{enumerate}
+ Да се направят зад 5,6,7,8,10 от картинката 
+ 
+\end{problem}
+
+
+\vspace{1cm}
+
+$x^2 + 1 = 0 \to x^2 = -1 \to x = \pm \sqrt{-1}$ НЕ е реален израз
+
+$x*x = x^2 \geq 0 $ 
+
+
+\vspace{1cm}
+
+
+$\sqrt{x -2 } $ \hspace{1cm} трябва $x-2 \geq 0$ или $x \geq 2 $ Това го наричаме ДЕФИНИЦИОННО МНОЖЕСТВО или ДЕФИНИЦИОННА ОБЛАСТ
+
+
+Пример $\sqrt{x -2 } < 2 $ Трябва да осигурим две неща:
+
+	\[
+\begin{cases}
+ 	x-2 \geq 0 \\
+	(\sqrt{x-2})^2 < 2^2 
+\end{cases}
+\]
+
+	\[
+\begin{cases}
+	x \geq 2 \\
+	x-2 < 4
+\end{cases}
+\]
+
+
+
+\[
+\begin{cases}
+	x \geq 2 \\
+	x < 6
+\end{cases}
+\]
+
+ОТГ. $ x \in \left[ 6, + \infty \right) $ \\
+ОТГ. $ x \in \left[ 2, 6 \right] $ \\
+ОТГ. $ x \in \left[ 2 , 6 \right) $ \\ 
+
+
+$ \sqrt{x-2}(x^2 - 8x + 15) < 0 $
+
+
+$(x-3)^2 + -8(x-3) + 15 = 0 $ \\
+$x-3 = y $ \\
+$y^2 - 8y + 15 = 0 $
+
 \begin{comment}
 
 \begin{align*}

@@ -1,0 +1,18 @@
+\babel@toc {bulgarian}{}
+\contentsline {section}{\numberline {1}Теория}{1}%
+\contentsline {subsection}{\numberline {1.1}Триъгълник}{1}%
+\contentsline {subsection}{\numberline {1.2}Трапец}{3}%
+\contentsline {subsection}{\numberline {1.3}Успоредник}{4}%
+\contentsline {subsection}{\numberline {1.4}Вероятности - Комбинации, Вариации и Пермутации.}{4}%
+\contentsline {subsection}{\numberline {1.5}Полиномиални и дробни неравенства - теория}{5}%
+\contentsline {section}{\numberline {2}Неравенства - задачи}{5}%
+\contentsline {section}{\numberline {3}Kвадратни уравнения и системи}{6}%
+\contentsline {section}{\numberline {4}Еднаквост и подобност на триъгълници}{7}%
+\contentsline {section}{\numberline {5}Тригонометрия}{8}%
+\contentsline {section}{\numberline {6}Задачи с текс}{8}%
+\contentsline {subsection}{\numberline {6.1}Разни}{8}%
+\contentsline {subsection}{\numberline {6.2}Линейни уравнения и неравенства}{9}%
+\contentsline {subsection}{\numberline {6.3}Басейни}{9}%
+\contentsline {section}{\numberline {7}Системи}{10}%
+\contentsline {section}{\numberline {8}Ирационални уравнения}{11}%
+\contentsline {section}{\numberline {9}Опростяване на изрази}{11}%
