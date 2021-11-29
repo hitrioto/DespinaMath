@@ -1,19 +1,22 @@
 \babel@toc {bulgarian}{}
-\contentsline {section}{\numberline {1}Теория}{1}%
-\contentsline {subsection}{\numberline {1.1}Триъгълник}{1}%
-\contentsline {subsection}{\numberline {1.2}Трапец}{3}%
-\contentsline {subsection}{\numberline {1.3}Успоредник}{4}%
-\contentsline {subsection}{\numberline {1.4}Функции}{4}%
-\contentsline {subsection}{\numberline {1.5}Вероятности - Комбинации, Вариации и Пермутации.}{5}%
-\contentsline {subsection}{\numberline {1.6}Полиномиални и дробни неравенства - теория}{6}%
-\contentsline {section}{\numberline {2}Неравенства - задачи}{6}%
-\contentsline {section}{\numberline {3}Kвадратни уравнения и системи}{7}%
-\contentsline {section}{\numberline {4}Еднаквост и подобност на триъгълници}{9}%
-\contentsline {section}{\numberline {5}Тригонометрия}{10}%
-\contentsline {section}{\numberline {6}Задачи с текс}{10}%
-\contentsline {subsection}{\numberline {6.1}Разни}{10}%
-\contentsline {subsection}{\numberline {6.2}Линейни уравнения и неравенства}{11}%
-\contentsline {subsection}{\numberline {6.3}Басейни}{12}%
-\contentsline {section}{\numberline {7}Системи}{12}%
-\contentsline {section}{\numberline {8}Ирационални уравнения}{13}%
-\contentsline {section}{\numberline {9}Опростяване на изрази}{14}%
+\contentsline {section}{\numberline {1}Теория}{2}%
+\contentsline {subsection}{\numberline {1.1}Триъгълник}{2}%
+\contentsline {subsection}{\numberline {1.2}Трапец}{4}%
+\contentsline {subsection}{\numberline {1.3}Успоредник}{5}%
+\contentsline {subsection}{\numberline {1.4}Функции}{5}%
+\contentsline {subsection}{\numberline {1.5}Вероятности - Комбинации, Вариации и Пермутации.}{6}%
+\contentsline {subsection}{\numberline {1.6}Полиномиални и дробни неравенства - теория}{7}%
+\contentsline {section}{\numberline {2}Неравенства - задачи}{7}%
+\contentsline {section}{\numberline {3}Kвадратни уравнения и системи}{8}%
+\contentsline {section}{\numberline {4}Еднаквост и подобност на триъгълници}{10}%
+\contentsline {section}{\numberline {5}Тригонометрия}{11}%
+\contentsline {section}{\numberline {6}Задачи с текс}{11}%
+\contentsline {subsection}{\numberline {6.1}Разни}{11}%
+\contentsline {subsection}{\numberline {6.2}Линейни уравнения и неравенства}{12}%
+\contentsline {subsection}{\numberline {6.3}Басейни}{13}%
+\contentsline {section}{\numberline {7}Системи}{13}%
+\contentsline {section}{\numberline {8}Ирационални уравнения}{14}%
+\contentsline {section}{\numberline {9}Опростяване на изрази}{15}%
+\contentsline {section}{\numberline {10}Редици и прогресии. Прогресии}{16}%
+\contentsline {subsection}{\numberline {10.1}Редици}{16}%
+\contentsline {subsection}{\numberline {10.2}Прогресии}{16}%
