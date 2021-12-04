@@ -12,11 +12,11 @@
 \contentsline {section}{\numberline {5}Тригонометрия}{11}%
 \contentsline {section}{\numberline {6}Задачи с текс}{11}%
 \contentsline {subsection}{\numberline {6.1}Разни}{11}%
-\contentsline {subsection}{\numberline {6.2}Линейни уравнения и неравенства}{12}%
-\contentsline {subsection}{\numberline {6.3}Басейни}{13}%
-\contentsline {section}{\numberline {7}Системи}{13}%
-\contentsline {section}{\numberline {8}Ирационални уравнения}{14}%
-\contentsline {section}{\numberline {9}Опростяване на изрази}{15}%
-\contentsline {section}{\numberline {10}Редици и прогресии. Прогресии}{16}%
-\contentsline {subsection}{\numberline {10.1}Редици}{16}%
-\contentsline {subsection}{\numberline {10.2}Прогресии}{16}%
+\contentsline {subsection}{\numberline {6.2}Линейни уравнения и неравенства}{13}%
+\contentsline {subsection}{\numberline {6.3}Басейни}{14}%
+\contentsline {section}{\numberline {7}Системи}{14}%
+\contentsline {section}{\numberline {8}Ирационални уравнения}{15}%
+\contentsline {section}{\numberline {9}Опростяване на изрази}{16}%
+\contentsline {section}{\numberline {10}Редици и прогресии. Прогресии}{17}%
+\contentsline {subsection}{\numberline {10.1}Редици}{17}%
+\contentsline {subsection}{\numberline {10.2}Прогресии}{18}%
