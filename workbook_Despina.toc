@@ -24,3 +24,4 @@
 \contentsline {subsection}{\numberline {10.2}Прогресии}{19}%
 \contentsline {section}{\numberline {11}Олимпиада по математика}{20}%
 \contentsline {section}{\numberline {12}Матура 21.05.2021 г. – Вариант 1}{22}%
+\contentsline {section}{\numberline {13}Статистика/Стакмистика}{22}%
