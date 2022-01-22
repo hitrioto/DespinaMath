@@ -24,4 +24,8 @@
 \contentsline {subsection}{\numberline {10.2}Прогресии}{19}%
 \contentsline {section}{\numberline {11}Олимпиада по математика}{20}%
 \contentsline {section}{\numberline {12}Матура 21.05.2021 г. – Вариант 1}{22}%
-\contentsline {section}{\numberline {13}Статистика/Стакмистика}{22}%
+\contentsline {section}{\numberline {13}Матура 23.05.2018 г. – Вариант 1}{22}%
+\contentsline {section}{\numberline {14}Статистика/Стакмистика}{23}%
+\contentsline {section}{\numberline {15}Синусова и косинусова теорема. Решаване на триъгълник.}{23}%
+\contentsline {section}{\numberline {16}Лихви}{24}%
+\contentsline {section}{\numberline {17}Физика}{25}%
