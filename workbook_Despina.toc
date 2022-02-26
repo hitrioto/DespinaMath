@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {1.6}Квадратни функции}{6}%
 \contentsline {subsection}{\numberline {1.7}Вероятности - Комбинации, Вариации и Пермутации.}{6}%
 \contentsline {subsection}{\numberline {1.8}Полиномиални и дробни неравенства - теория}{7}%
-\contentsline {section}{\numberline {2}Неравенства - задачи}{7}%
+\contentsline {section}{\numberline {2}Неравенства - задачи}{8}%
 \contentsline {section}{\numberline {3}Kвадратни уравнения и системи}{9}%
 \contentsline {section}{\numberline {4}Еднаквост и подобност на триъгълници}{11}%
 \contentsline {section}{\numberline {5}Тригонометрия}{12}%
@@ -16,7 +16,8 @@
 \contentsline {subsection}{\numberline {6.1}Разни}{12}%
 \contentsline {subsection}{\numberline {6.2}Линейни уравнения и неравенства}{14}%
 \contentsline {subsection}{\numberline {6.3}Басейни}{15}%
-\contentsline {section}{\numberline {7}Системи}{15}%
+\contentsline {subsection}{\numberline {6.4}някакво състезание с логически задачи}{15}%
+\contentsline {section}{\numberline {7}Системи}{16}%
 \contentsline {section}{\numberline {8}Ирационални уравнения}{16}%
 \contentsline {section}{\numberline {9}Опростяване на изрази}{17}%
 \contentsline {section}{\numberline {10}Редици и прогресии. Прогресии}{18}%
@@ -26,6 +27,9 @@
 \contentsline {section}{\numberline {12}Матура 21.05.2021 г. – Вариант 1}{22}%
 \contentsline {section}{\numberline {13}Матура 23.05.2018 г. – Вариант 1}{22}%
 \contentsline {section}{\numberline {14}Статистика/Стакмистика}{23}%
-\contentsline {section}{\numberline {15}Синусова и косинусова теорема. Решаване на триъгълник.}{23}%
-\contentsline {section}{\numberline {16}Лихви}{24}%
-\contentsline {section}{\numberline {17}Физика}{25}%
+\contentsline {section}{\numberline {15}Синусова и косинусова теорема. Решаване на триъгълник.}{24}%
+\contentsline {subsection}{\numberline {15.1}Теореми}{24}%
+\contentsline {subsection}{\numberline {15.2}Решаване на триъгълник}{24}%
+\contentsline {section}{\numberline {16}Лихви}{25}%
+\contentsline {section}{\numberline {17}Физика}{26}%
+\contentsline {section}{\numberline {18}Из разни тестове}{26}%
